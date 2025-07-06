@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+crewai = "*"
+langchain = "*"
+langchain-ollama = "*"
+langchain-community = "*"
+crewai-tools = "*"
+duckduckgo-search = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

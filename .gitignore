@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Python dependency management
+Pipfile.lock
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+
+# Streamlit specific
+.streamlit/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Reports and data (if generated)
+reports/*.html
+reports/*.pdf
+reports/*.md
+
+# Ignore environment-specific secrets
+.env.local
+.env.production
+.env.development
